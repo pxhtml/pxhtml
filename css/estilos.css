@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900|Montserrat:400,700,800,900|Raleway:400,700|Yesteryear|Audiowide|Orbitron|Russo+One|Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Muli:400,700,800,900|Montserrat:400,700,800,900|Raleway:400,700|Yesteryear|Audiowide|Orbitron|Russo+One|Squada+One');
 
 html {
     scroll-behavior: smooth;
@@ -48,6 +48,9 @@ a {
 }
 .font-muli{
     font-family: 'Muli', sans-serif;
+}
+.font-oswald{
+    font-family: 'Oswald', sans-serif;
 }
 /* /Fuentes */
 
@@ -238,7 +241,7 @@ a {
 }
 .articulo h2 {
     font-size: 2.5em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
 /*     text-align: center; */
     text-transform: uppercase;
