@@ -214,6 +214,21 @@ a {
 .menu  .desp-link:hover {
     color: rgba(0,0,0,.9)
 }
+.menu  .desp-link:hover [class*="fa-facebook"]::before {
+    color: #3b5998;
+}
+.menu  .desp-link:hover [class*="fa-twitter"]::before {
+    color: #55acee;
+}
+.menu  .desp-link:hover [class*="fa-youtube"]::before {
+    color: #bb0000;
+}
+.menu  .desp-link:hover [class*="fa-linkedin"]::before {
+    color: #007bb5;
+}
+.menu  .desp-link:hover [class*="fa-instagram"]::before {
+    color: #125688;
+}
 /* /Menú */
 
 .articulo {
