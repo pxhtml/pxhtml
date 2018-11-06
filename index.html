@@ -14,22 +14,25 @@
     <title>Redes sociales</title>
     <link rel="stylesheet" type="text/css" href="./css/rejilla.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./css/estilos.css" media="screen" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"/>
   </head>
      
   <body>
     <div id="header" class="contenedor-ancho mb-5">
       <div class="registro">
-          <div class="menu-registro">
-            <form action="login.php" method="POST">
-              <label for="">Login</label>
-              <input class="input-login" type="text" name="usuario" id="usuario" placeholder="Usuario" size="10">
-              <input class="input-login" type="text" name="contraseña" id="contraseña" placeholder="Contraseña" size="10">
-              <input class="input-boton" type="submit" value="Entrar">
+        <div class="menu-registro">
+          <form action="login.php" method="post">
+            <div>
+              <label for="usuario">Usuario</label>
+              <input class="input-login" type="text" name="usuario" id="usuario" size="10"/>
+              <label for="contra">Contraseña</label>
+              <input class="input-login" type="password" name="contra" id="contra" size="10"/>
+              <input class="input-boton" type="submit" value="Entrar"/>
               <a class="input-boton" href="#">Registro</a>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
+      </div>
       <div id="frontal">
         <div class="fondo"><div class="sombra-fondo"></div></div>
         <div class="titulo">
