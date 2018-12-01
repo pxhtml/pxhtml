@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.registro {
+    display: none;
+}
+#nav {
+    display: none;
+}
+.top {
+    display: none;
+}
+#footer {
+    display: none;
+}
+
+.titulo h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,.2);
+}
+.articulo h2 {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,.2);
+    position: relative;
+    display: inline-block;
+    color: #3c3c3c;
+}
+.articulo h3 {
+    font-size: 1.8em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,.2);
+    position: relative;
+    display: inline-block;
+    color: #3c3c3c;
+    margin-bottom: 5px;
+}
+
+.articulo p, .articulo ul,.radio,.form-registro fieldset span {
+    font-family: 'Muli', sans-serif;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    color: #3c3c3c;
+}
+.articulo ul {
+    padding-left: 20px;
+}
+.articulo ul li {
+    padding: 10px 0 10px 10px;
+}
+.img-articulo {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
